@@ -1,0 +1,130 @@
+.sd{
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+
+}
+
+.sp{ /*SPOR HABERLERİ*/
+    background-color:fuchsia;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+
+}
+.banner{
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/*NAVBAR*/
+.navbar-brand{
+    letter-spacing: 2px;
+    background: blueviolet;
+}
+
+.navbar-brand::first-letter{
+    font-size: 25px;
+   
+}
+
+
+
+/*ANASAYFA BAŞLANGIÇ CSS*/
+
+
+.carousel-item img {
+    height: 350px;
+}
+
+.card {
+    position: relative;
+    padding: 12px;
+
+}
+
+.card .card-body .card-text{
+    
+    color: black;
+}
+
+.card .btn{
+    display: block;
+}
+
+.card .spor {
+
+    background-color: darkviolet;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+
+
+.card .sondakika {
+
+    background-color: red;
+    position: absolute;
+    right: 0;
+    color: chocolate;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+#two .card {
+    width: 25%;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 15px 15px 8px gray;
+    border-radius: 6px;
+}
+
+
+.spor{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px gray;
+
+}
+
+.haber{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 6px 6px 3px gray;
+    
+}
+
+
+
+
+@media(max-width:768px){
+    #two .card {
+        width: 100%;
+    }
+
+
+    .card:hover{
+        transform: none;
+        transition: none;
+        z-index: 1;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+
+   
+}
